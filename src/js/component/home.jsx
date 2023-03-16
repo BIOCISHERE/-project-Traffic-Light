@@ -27,7 +27,7 @@ const Home = () => {
 
   return wantPurple ? (
 	<div className="sign">
-        <div className="stick"></div>
+        <div className="stick mt-3"></div>
         <div className="traficLigth">
             <div onClick={() => setColor("red")} className={(color === "red") ? "ligth red my-2 glowred" : "ligth red my-2"}></div>
             <div onClick={() => setColor("yellow")} className={(color === "yellow" ? "ligth yellow my-2 glowyellow" : "ligth yellow my-2 ")}></div>
